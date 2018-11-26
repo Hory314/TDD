@@ -21,5 +21,4 @@ public class FactorsTest
         // then
         assertThat("Wrong result", result, is(expected));
     }
-
 }
