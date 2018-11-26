@@ -13,7 +13,7 @@ public class FactorsTest
     {
         // given
         int n = 99;
-        int[] expected = {1, 11, 33, 99};
+        int[] expected = {1, 3, 9, 11, 33, 99};
 
         // when
         int[] result = Factors.generatePrimeFactors(n);
